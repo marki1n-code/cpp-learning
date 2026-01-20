@@ -12,7 +12,7 @@ int main() {
     std::cout << "Enter temperature ";
     std::cin >> temp;
 
-    if (temp > 0 && temp < 30) //не включає 0 і 30. (temp >= 0 && temp <= 30) включає 0 і 30
+    if (temp > 0 && temp < 30) //не включає 0 і 30. (temp >= 0 && temp <= 30) включає 0 і 30 
     {
         std::cout << "The temperature is ok ";
     }
