@@ -12,7 +12,9 @@ int main()
 
     бла-бла-бла
     */
-    cout << "Hello, World!" << std::endl;
+    cout << "\033[31mHello, World!\033[0m" << std::endl;
+    cout << "\033[32mHello, World!\033[0m" << std::endl;
+    cout << "\033[34mHello, World!\033[0m" << std::endl;
     cout << "Привіт, Світ!" << std::endl;
 
     return 0;
